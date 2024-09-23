@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 13:39:51 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/18 15:42:07 by pcorrale         ###   ########.fr       */
+/*   Updated: 2024/09/23 13:11:10 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-//#include "libft.h"
+#include "libft.h"
 
 int	ft_isalpha(char c)
 {

@@ -1,32 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/16 15:27:15 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/23 13:11:41 by marvin           ###   ########.fr       */
+/*   Created: 2024/09/23 14:51:19 by marvin            #+#    #+#             */
+/*   Updated: 2024/09/23 14:51:19 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char c)
+int ft_toupper(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
+    if (c >= 97 && c <= 122)
+        return (c-32);
+    else
+        return (c);
 }
+#include <stdio.h>
 
-int	main(void)
+int main (void)
 {
-	char ex[] = "He12345+l-lo";
+    char a = 'a';
 
-	printf("Result is %i\n", ft_isdigit(ex[0]));
-	printf("Result is %i\n", ft_isdigit(ex[3]));
-	printf("Result is %i\n", ft_isdigit(ex[7]));
-
-	return (0);
+    printf("%c\n", ft_toupper(a));
+    return 0;
 }
