@@ -36,6 +36,7 @@ char *ft_strnstr (const char *big, const char *little, size_t len);
 char *ft_strchr(const char *s, int c);
 char *strrchr(const char *s, int c);
 char *ft_strdup(const char *s1);
+char *ft_substr(char const *s, unsigned int start, size_t len);
 
 int	ft_strncmp(const char *s1, const char *s2, unsigned int n);
 int    ft_isalnum(char c);
