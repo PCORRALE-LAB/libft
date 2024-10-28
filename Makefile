@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/28 09:41:55 by shashemi          #+#    #+#              #
-#    Updated: 2024/10/28 13:50:00 by pcorrale         ###   ########.fr        #
+#    Updated: 2024/10/28 17:06:08 by pcorrale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,10 @@ SRCS =				\
 	ft_substr.c		\
 	ft_strjoin.c	\
 	ft_split.c		\
-
+	ft_putchar_fd.c \
+	ft_putendl_fd.c \
+	ft_putnbr_fd.c  \
+	ft_putstr_fd.c  \
 
 OBJS = $(SRCS:.c=.o)
 

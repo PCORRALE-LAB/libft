@@ -2,11 +2,11 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+        
+/*                                                    +:+ +:+
 	+:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+      
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+
 	+#+        */
-/*                                                +#+#+#+#+#+  
+/*                                                +#+#+#+#+#+
 	+#+           */
 /*   Created: 2024/09/25 12:19:42 by marvin            #+#    #+#             */
 /*   Updated: 2024/09/25 12:19:42 by marvin           ###   ########.fr       */
@@ -14,6 +14,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+
 
 char	*ft_strdup(const char *s1)
 {
@@ -26,7 +27,6 @@ char	*ft_strdup(const char *s1)
 	if (!dup)
 		return (NULL);
 	i = 0;
-    
 	while (s1[i] != '\0')
 	{
 		dup[i] = s1[i];
@@ -35,16 +35,16 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
-
+/*
  #include <stdio.h>
 
 
  int	main(void)
  {
- 	char src[] = "Hello world!";
- 	char *dup;
- 	dup = ft_strdup(src);
+	char src[] = "Hello world!";
+	char *dup;
+	dup = ft_strdup(src);
 
- 	printf("Original: %s\nCopy: %s", src, dup);
- 	return (0);
- }
+	printf("Original: %s\nCopy: %s", src, dup);
+	return (0);
+ }*/

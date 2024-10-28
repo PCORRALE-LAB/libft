@@ -70,7 +70,7 @@ char	**ft_split(char const *s, char c)
 
 // int	main(void)
 // {
-// 	char a[] = "1,2,3,4,5,6,7,8,9,0";
+// 	char a[] = "1,2,,,,,3,4,5,6,7,8,9,0";
 // 	char **result;
 // 	char delimiter = ',';
 // 	int i;
