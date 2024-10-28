@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 15:33:39 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/23 13:28:29 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-    unsigned const char	*ptr_src;
+	unsigned const char	*ptr_src;
 	unsigned char		*ptr_dest;
 	size_t				i;
 

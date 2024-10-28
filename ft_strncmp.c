@@ -3,38 +3,31 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 18:12:47 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/23 13:28:29 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/28 14:29:49 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t	i;
-    unsigned int diff;
+	size_t				i;
+	const unsigned char	*s1_copy;
+	const unsigned char	*s2_copy;
 
+	if (n == 0)
+		return (0);
+	s1_copy = (const unsigned char *)s1;
+	s2_copy = (const unsigned char *)s2;
 	i = 0;
-	while ((s1[i] != '\0') && (s2[i] != '\0')
-    && (diff == 0) && (i < n))
+	while (i < n && s1_copy[i] == s2_copy[i] && s1_copy[i] != '\0' && s2_copy[i] != '\0')
 	{
-		diff = (unsigned char)s1[i] - (unsigned char)s2[i];
-    	i++;
+		i++;
 	}
-	if ((diff = 0) && (i < n))
-		diff = (unsigned char)s1[i] - (unsigned char)s2[i];
-	return (diff);
-}
-int	main(void)
-{
-	char	s1[] = "peTpet";
-	char	s2[] = "petA";
-	int	result;
-
-	result = 0;
-	result = ft_strncmp(s1, s2, 4);
-	printf ("%d", result);
+	if (i == n)
+		return (0);
+	return (s1_copy[i] - s2_copy[i]);
 }

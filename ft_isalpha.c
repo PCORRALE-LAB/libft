@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 13:39:51 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/23 13:11:10 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,13 @@ int	ft_isalpha(char c)
 		return (0);
 }
 
-int	main(void)
-{
-	char ex[] = "He%+l-lo";
+// int	main(void)
+// {
+// 	char ex[] = "He%+l-lo";
 
-	printf("Result is %i\n", ft_isalpha(ex[0]));
-	printf("Result is %i\n", ft_isalpha(ex[3]));
-	printf("Result is %i\n", ft_isalpha(ex[6]));
+// 	printf("Result is %i\n", ft_isalpha(ex[0]));
+// 	printf("Result is %i\n", ft_isalpha(ex[3]));
+// 	printf("Result is %i\n", ft_isalpha(ex[6]));
 
-	return (0);
-}
+// 	return (0);
+// }

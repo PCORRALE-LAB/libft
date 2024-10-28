@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 15:28:35 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/23 18:13:47 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,13 +21,13 @@ int	ft_isalnum(char c)
 		return (0);
 }
 
-int	main(void)
-{
-	char ex[] = "He%+l-lo";
+// int	main(void)
+// {
+// 	char ex[] = "He%+l-lo";
 
-	printf("Result is %i\n", ft_isalnum(ex[0]));
-	printf("Result is %i\n", ft_isalnum(ex[3]));
-	printf("Result is %i\n", ft_isalnum(ex[5]));
+// 	printf("Result is %i\n", ft_isalnum(ex[0]));
+// 	printf("Result is %i\n", ft_isalnum(ex[3]));
+// 	printf("Result is %i\n", ft_isalnum(ex[5]));
 
-	return (0);
-}
+// 	return (0);
+// }

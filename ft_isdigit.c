@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 15:27:15 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/09/23 13:11:41 by marvin           ###   ########.fr       */
+/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,13 @@ int	ft_isdigit(char c)
 		return (0);
 }
 
-int	main(void)
-{
-	char ex[] = "He12345+l-lo";
+// int	main(void)
+// {
+// 	char ex[] = "He12345+l-lo";
 
-	printf("Result is %i\n", ft_isdigit(ex[0]));
-	printf("Result is %i\n", ft_isdigit(ex[3]));
-	printf("Result is %i\n", ft_isdigit(ex[7]));
+// 	printf("Result is %i\n", ft_isdigit(ex[0]));
+// 	printf("Result is %i\n", ft_isdigit(ex[3]));
+// 	printf("Result is %i\n", ft_isdigit(ex[7]));
 
-	return (0);
-}
+// 	return (0);
+// }

@@ -1,30 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/23 15:02:37 by marvin            #+#    #+#             */
-/*   Updated: 2024/09/23 15:02:37 by marvin           ###   ########.fr       */
+/*   Created: 2024/09/16 15:30:01 by pcorrale          #+#    #+#             */
+/*   Updated: 2024/10/28 13:53:39 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_tolower(int c)
+int	ft_isascii(char c)
 {
-    if (c >= 65 && c <= 90)
-        return (c + 32);
-    else
-        return (c);
-}
-#include <stdio.h>
-
-int main (void)
-{
-    char a = 'a';
-
-    printf("%c\n", ft_tolower(a));
-    return 0;
+	return (c >= 0 && c <= 127);
 }
