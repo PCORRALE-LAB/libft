@@ -31,14 +31,14 @@ char *ft_strchr(const char *s, int c)
             return((char*)(s + i));
     return (NULL);
 }
-#include <stdio.h>
-int main (void)
-{
-    char a[]= "Hello World!";
+// #include <stdio.h>
+// int main (void)
+// {
+//     char a[]= "Hello World!";
 
-    char c = 'W';
+//     char c = 'W';
 
-    printf("%s\n", a);
-    printf("Encontrado: %s\n", ft_strchr(a,c));
+//     printf("%s\n", a);
+//     printf("Encontrado: %s\n", ft_strchr(a,c));
 
-}
+// }
