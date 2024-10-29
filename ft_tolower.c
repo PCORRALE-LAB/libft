@@ -2,14 +2,11 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+        
-	+:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+      
-	+#+        */
-/*                                                +#+#+#+#+#+  
-	+#+           */
-/*   Created: 2024/09/23 15:02:37 by marvin            #+#    #+#             */
-/*   Updated: 2024/09/23 15:02:37 by marvin           ###   ########.fr       */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/29 11:11:05 by pcorrale          #+#    #+#             */
+/*   Updated: 2024/10/29 11:11:05 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,13 +19,3 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
-// #include <stdio.h>
-
-
-// int	main(void)
-// {
-// 	char a = 'a';
-
-// 	printf("%c\n", ft_tolower(a));
-// 	return (0);
-// }

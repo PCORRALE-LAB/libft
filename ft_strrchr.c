@@ -2,24 +2,20 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+
-	+:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+
-	+#+        */
-/*                                                +#+#+#+#+#+
-	+#+           */
-/*   Created: 2024/09/23 15:16:24 by marvin            #+#    #+#             */
-/*   Updated: 2024/09/23 15:16:24 by marvin           ###   ########.fr       */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/29 11:10:09 by pcorrale          #+#    #+#             */
+/*   Updated: 2024/10/29 11:10:09 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-
 char	*ft_strrchr(const char *s, int c)
 {
-	int i;
-	char c_copy;
+	int		i;
+	char	c_copy;
 
 	c_copy = (char)c;
 	i = ft_strlen(s);
@@ -35,15 +31,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char a[] = "Hello World! Welcome to 42. This is the new world baby";
-
-// 	char c = 'w';
-
-// 	printf("%s\n", a);
-// 	printf("Encontrado: %s\n", ft_strrchr(a, c));
-// }

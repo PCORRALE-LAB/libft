@@ -6,13 +6,13 @@
 /*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 15:28:35 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
+/*   Updated: 2024/10/29 12:36:27 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(char c)
+int	ft_isalnum(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0'
 			&& c <= '9'))
@@ -20,14 +20,3 @@ int	ft_isalnum(char c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	char ex[] = "He%+l-lo";
-
-// 	printf("Result is %i\n", ft_isalnum(ex[0]));
-// 	printf("Result is %i\n", ft_isalnum(ex[3]));
-// 	printf("Result is %i\n", ft_isalnum(ex[5]));
-
-// 	return (0);
-// }

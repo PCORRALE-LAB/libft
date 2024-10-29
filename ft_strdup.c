@@ -2,25 +2,21 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+
-	+:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+
-	+#+        */
-/*                                                +#+#+#+#+#+
-	+#+           */
-/*   Created: 2024/09/25 12:19:42 by marvin            #+#    #+#             */
-/*   Updated: 2024/09/25 12:19:42 by marvin           ###   ########.fr       */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/29 11:08:28 by pcorrale          #+#    #+#             */
+/*   Updated: 2024/10/29 11:08:28 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-
 char	*ft_strdup(const char *s1)
 {
-	char *dup;
-	size_t len;
-	size_t i;
+	char	*dup;
+	size_t	len;
+	size_t	i;
 
 	len = ft_strlen(s1);
 	dup = (char *)malloc(sizeof(char) * (len + 1));
@@ -35,16 +31,3 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
-/*
- #include <stdio.h>
-
-
- int	main(void)
- {
-	char src[] = "Hello world!";
-	char *dup;
-	dup = ft_strdup(src);
-
-	printf("Original: %s\nCopy: %s", src, dup);
-	return (0);
- }*/

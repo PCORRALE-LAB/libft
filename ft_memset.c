@@ -6,7 +6,7 @@
 /*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 16:07:39 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
+/*   Updated: 2024/10/29 12:38:56 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,3 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
-
-// int	main(void)
-// {
-// 	char str[] = "almost every programmer should know memset!";
-
-// 	printf("%s\n", str);
-// 	ft_memset(str, '-', 12);
-// 	printf("%s\n", str);
-// 	return (0);
-// }

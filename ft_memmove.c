@@ -6,7 +6,7 @@
 /*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 17:17:11 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
+/*   Updated: 2024/10/29 12:38:40 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// int	main(void)
-// {
-// 	char src[] = "Hello world!";
-// 	char dest[] = "Helllo! Welcome to 42. This is your new adventure.";
-
-// 	printf("Src: %s\n", src);
-// 	printf("Dest: %s\n\n\n", dest);
-
-// 	ft_memmove(dest, src, 18);
-
-// 	printf("Src: %s\n", src);
-// 	printf("Dest: %s\n", dest);
-
-// 	return (0);
-// }

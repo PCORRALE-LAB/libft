@@ -2,14 +2,11 @@
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+        
-	+:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+      
-	+#+        */
-/*                                                +#+#+#+#+#+  
-	+#+           */
-/*   Created: 2024/09/26 11:26:24 by marvin            #+#    #+#             */
-/*   Updated: 2024/09/26 11:26:24 by marvin           ###   ########.fr       */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/29 11:10:49 by pcorrale          #+#    #+#             */
+/*   Updated: 2024/10/29 11:10:49 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +14,9 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t i;
-	size_t str_len;
-	char *substr;
+	size_t	i;
+	size_t	str_len;
+	char	*substr;
 
 	str_len = ft_strlen(s);
 	if (start >= str_len)
@@ -38,17 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-
-/*#include <stdio.h>
-
-
-int	main(void)
-{
-    char a[] = "Hello World! Welcomme to 42";
- 	char *b;
-
- 	b = ft_substr(a, 6, 30);
- 	printf("Original: %s\nExtract: %s", a, b);
-
- 	return (0);
-}*/

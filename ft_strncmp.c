@@ -6,7 +6,7 @@
 /*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 18:12:47 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/10/28 14:29:49 by pcorrale         ###   ########.fr       */
+/*   Updated: 2024/10/29 11:11:36 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	s1_copy = (const unsigned char *)s1;
 	s2_copy = (const unsigned char *)s2;
 	i = 0;
-	while (i < n && s1_copy[i] == s2_copy[i] && s1_copy[i] != '\0' && s2_copy[i] != '\0')
+	while (i < n && s1_copy[i] == s2_copy[i] && s1_copy[i] != '\0'
+		&& s2_copy[i] != '\0')
 	{
 		i++;
 	}

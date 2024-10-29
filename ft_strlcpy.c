@@ -6,7 +6,7 @@
 /*   By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 12:57:18 by pcorrale          #+#    #+#             */
-/*   Updated: 2024/10/28 13:45:59 by pcorrale         ###   ########.fr       */
+/*   Updated: 2024/10/29 12:41:40 by pcorrale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (len);
 }
-
-// int	main(void)
-// {
-// 	size_t	var;
-// 	char	a[] = "";
-// 	char	b[] = "world!";
-
-// 	var = ft_strlcpy(a, b, 6);
-// 	printf("resume = %li \n text=  %s", var, a);
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 #    By: pcorrale <pcorrale@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/28 09:41:55 by shashemi          #+#    #+#              #
-#    Updated: 2024/10/28 17:06:08 by pcorrale         ###   ########.fr        #
+#    Updated: 2024/10/29 11:47:02 by pcorrale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,12 @@ SRCS =				\
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c  \
 	ft_putstr_fd.c  \
+	ft_itoa.c       \
+	ft_strtrim.c    \
+	ft_strmapi.c    \
+	ft_striteri.c   \
 
+	
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
